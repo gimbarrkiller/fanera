@@ -1,0 +1,39 @@
+.slider__items {
+  counter-reset: slide;
+}
+
+.slider__item {
+  height: 320px;
+  counter-increment: slide;
+  position: relative;
+}
+
+.slider__item-img {
+  width: 100%;
+  height: inherit;
+  filter: brightness(80%);
+}
+.slider__item-text {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  max-width: 850px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.slider__control_prev::before {
+  background-image:url('../img/arrow-left.svg');
+  transition: 1s;
+}
+
+.slider__control_next::before {
+  background-image:url('../img/arrow-right.svg');
+}

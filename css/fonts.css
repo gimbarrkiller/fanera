@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'HeliosExt';
+	src: url('../fonts/HeliosExt.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'HeliosExt';
+  src: url('../fonts/HeliosExt.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inner';
+  src: url('../fonts/Inter-Bold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InnerRegular';
+  src: url('../fonts/Inter-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}

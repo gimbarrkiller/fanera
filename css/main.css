@@ -1,0 +1,187 @@
+.main_head {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding-bottom: 88px;
+}
+.main_head-h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1400px) {
+  .main_head-h1 {
+    font-size: 40px;
+  }
+}
+
+.o-nas {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 300px;
+}
+.o-nas_block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 300px;
+}
+.o-nas_block_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+}
+.o-nas_block_subtitle {
+  font-family: 'InnerRegular', serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.o-nas_info {
+  display: flex;
+  gap: 30px;
+  padding-top: 200px;
+}
+.o-nas_info_video {
+  min-width: 60%;
+  min-height: 400px;
+}
+.o-nas_info_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+}
+.o-nas_info_block_subtitle {
+  font-family: 'InnerRegular', serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.o-nas_info_block_subtitle_img {
+  width: 50px;
+}
+.o-nas_info_block_subtitle_second {
+  font-family: 'InnerRegular', serif;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.catalog {
+  padding-top: 320px;
+}
+.catalog_head {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  padding-bottom: 104px;
+}
+.catalog_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .catalog_list {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+.catalog_list-item {
+  position: relative;
+  width: 312px;
+}
+.catalog_list-item:hover .catalog_list-item_img {
+  filter: brightness(50%);
+}
+.catalog_list-item_img {
+  width: 100%;
+}
+.catalog_list-item_hover {
+  display: none;
+}
+.catalog_list-item:hover .catalog_list-item_hover {
+  display: flex;
+  position: absolute;
+  bottom: 84px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px;
+}
+.catalog_list-item_hover_text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.catalog_list-item_text {
+  background: #FFD43A;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  padding: 24px;
+  text-align: center;
+}
+
+.calculator {
+  padding-top: 274px;
+}
+.calculator_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+.zayavka {
+  margin-top: 200px;
+  padding: 60px 80px;
+  border: 15px solid #3E3E3E;
+}
+.zayavka_head {
+  display: flex;
+  justify-content: space-between;
+}
+.zayavka_head_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+.zayavka_form {
+  display: grid;
+  gap: 46px;
+
+  grid-template-areas: 'name btn'
+    'phone btn'
+    'time btn';
+  grid-template-columns: 65% 31%;
+}
+.zayavka_form-input {
+  border-bottom: 2px solid #B0B0B0;
+  font-family: InnerRegular, serif;
+  width: 100%;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 120%;;
+}
+.zayavka_form-input::placeholder {
+  color: #B0B0B0;
+}
+.zayavka_form-input-name {
+  grid-area: name;
+}
+.zayavka_form-input-phone {
+  grid-area: phone;
+}
+.zayavka_form-input-time {
+  grid-area: time;
+}
+.zayavka_form-btn {
+  grid-area: btn;
+  margin-top: auto;
+  height: 88px;
+}
+
