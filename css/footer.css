@@ -2,6 +2,12 @@ footer {
   background-color: #FFD43A;
   margin-top: 128px;
 }
+@media screen and (max-width: 1000px) {
+  footer {
+    margin-top: 80px;
+  }
+}
+
 .footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -14,6 +20,12 @@ footer {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding: 40px 20px;
+  }
+}
+
 
 .footer_left-title {
   font-weight: 700;

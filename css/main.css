@@ -4,6 +4,14 @@
   justify-content: space-between;
   padding-bottom: 88px;
 }
+@media screen and (max-width: 1000px) {
+  .main_head {
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+}
+
 .main_head-h1 {
   font-weight: 700;
   font-size: 60px;
@@ -24,6 +32,12 @@
   justify-content: space-between;
   padding-top: 300px;
 }
+@media screen and (max-width: 1000px) {
+  .o-nas {
+    padding-top: 80px;
+  }
+}
+
 .o-nas_block {
   display: flex;
   flex-direction: column;
@@ -35,10 +49,21 @@
   font-size: 50px;
   line-height: 120%;
 }
+@media screen and (max-width: 1000px) {
+  .o-nas_block_title {
+    font-size: 40px;
+  }
+}
+
 .o-nas_block_subtitle {
   font-family: 'InnerRegular', serif;
   font-weight: 400;
   font-size: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .o-nas_block_subtitle {
+    font-size: 20px;
+  }
 }
 
 .o-nas_info {
@@ -46,6 +71,12 @@
   gap: 30px;
   padding-top: 200px;
 }
+@media screen and (max-width: 1000px) {
+  .o-nas_info {
+    padding-top: 80px;
+  }
+}
+
 .o-nas_info_video {
   min-width: 60%;
   min-height: 400px;
@@ -61,6 +92,12 @@
   font-weight: 400;
   font-size: 30px;
 }
+@media screen and (max-width: 1000px) {
+  .o-nas_info_block_subtitle {
+    font-size: 20px;
+  }
+}
+
 .o-nas_info_block_subtitle_img {
   width: 50px;
 }
@@ -76,12 +113,25 @@
 .catalog {
   padding-top: 320px;
 }
+@media screen and (max-width: 1000px) {
+  .catalog {
+    padding-top: 80px;
+  }
+}
+
 .catalog_head {
   font-weight: 700;
   font-size: 50px;
   line-height: 120%;
   padding-bottom: 104px;
 }
+@media screen and (max-width: 1000px) {
+  .catalog_head {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+}
+
 .catalog_list {
   display: flex;
   justify-content: space-between;
@@ -98,6 +148,12 @@
   position: relative;
   width: 312px;
 }
+@media screen and (max-width: 1000px) {
+  .catalog_list-item {
+    width: calc(50% - 40px);
+  }
+}
+
 .catalog_list-item:hover .catalog_list-item_img {
   filter: brightness(50%);
 }
@@ -130,20 +186,18 @@
   text-align: center;
 }
 
-.calculator {
-  padding-top: 274px;
-}
-.calculator_title {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 120%;
-}
-
 .zayavka {
   margin-top: 200px;
   padding: 60px 80px;
   border: 15px solid #3E3E3E;
 }
+@media screen and (max-width: 1000px) {
+  .zayavka {
+    margin-top: 80px;
+    padding: 40px 60px;
+  }
+}
+
 .zayavka_head {
   display: flex;
   justify-content: space-between;
@@ -153,6 +207,12 @@
   font-size: 50px;
   line-height: 120%;
 }
+@media screen and (max-width: 1000px) {
+  .zayavka_head_title {
+    font-size: 40px;
+  }
+}
+
 
 .zayavka_form {
   display: grid;
