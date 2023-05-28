@@ -76,6 +76,63 @@
           <span>склад Кольцово</span>
         </a>
       </div>
+
+      <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu">
+        <nav class="header_nav_mobile">
+          <a
+            class="header_nav_link link_decoration"
+            href="#o-nas"
+          >
+            о нас
+          </a>
+          <a
+            class="header_nav_link link_decoration"
+            href="#catalog"
+          >
+            каталог
+          </a>
+          <a
+            class="header_nav_link link_decoration"
+            href="#calculator"
+          >
+            калькулятор
+          </a>
+          <a
+            class="header_nav_link link_decoration"
+            href="#contacts"
+          >
+            контакты
+          </a>
+        </nav>
+        <div class="header_numbers_mobile">
+          <a
+            class="header_numbers__phone"
+            href="tel:+73832621512"
+          >
+            <span class="link_decoration">+7 383 262 15 12</span>
+            <span>офис</span>
+          </a>
+          <a
+            class="header_numbers__phone"
+            href="tel:+73832621524"
+          >
+            <span class="link_decoration">+7 383 262 15 24</span>
+            <span>склад на Автогенной</span>
+          </a>
+          <a
+            class="header_numbers__phone"
+            href="tel:+73832914545"
+          >
+            <span class="link_decoration">+7 383 291 45 45</span>
+            <span>склад Кольцово</span>
+          </a>
+        </div>
+      </div>
     </header>
 
     <main class="main">
@@ -86,7 +143,12 @@
           ДЛЯ ВАШИХ ИДЕЙ
         </h1>
         <button class="button">
-          ПОДАТЬ ЗАЯВКУ
+          <a
+            class="button_link"
+            href="#zayavka"
+          >
+            ПОДАТЬ ЗАЯВКУ
+          </a>
         </button>
       </div>
 
@@ -495,17 +557,8 @@
       </div>
     </footer>
 
+    <script defer src="./js/burger-menu.js"></script>
     <script defer src="./js/slider.min.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        // инициализация слайдера
-        var slider = new SimpleAdaptiveSlider('.slider', {
-          loop: false,
-          autoplay: true,
-          interval: 5000,
-          swipe: true,
-        });
-      });
-    </script>
+    <script defer src="./js/slider.js"></script>
   </body>
 </html>

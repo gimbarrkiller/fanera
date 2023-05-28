@@ -17,7 +17,6 @@ nav,footer,header,aside{display: block;}
 /*html,*/body{
   height: 100%;
   width: 100%;
-  font-size: 100%;
   line-height: 1;
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -310,4 +309,11 @@ textarea {
   font-size: 30px;
   color: #fff;
   min-width: 30%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .button {
+    font-size: 20px;
+  }
 }
