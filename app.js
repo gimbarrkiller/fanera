@@ -52,8 +52,6 @@ async function formSubmit() {
   const data = serializeForm(form);
   const response = await sendData(data);
   if (response.ok) {
-    let result = await response.json();
-    alert(result.message);
     formReset();
   } else {
     alert("Код ошибки: " + response.status);
