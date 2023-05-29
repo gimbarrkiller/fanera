@@ -96,11 +96,16 @@
   }
 }
 
-
 .o-nas_info_video {
   min-width: 60%;
   min-height: 400px;
 }
+@media screen and (max-width: 768px) {
+  .o-nas_info_video {
+    min-height: 250px;
+  }
+}
+
 .o-nas_info_block {
   display: flex;
   flex-direction: column;
@@ -227,6 +232,7 @@
   margin-top: 200px;
   padding: 60px 80px;
   border: 15px solid #3E3E3E;
+  position: relative;
 }
 @media screen and (max-width: 1000px) {
   .zayavka {
@@ -234,6 +240,37 @@
     padding: 20px;
   }
 }
+
+.zayavka_success {
+  display: none;
+}
+.zayavka_success_view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffd43a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1000px) {
+  .zayavka_success_view {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .zayavka_success_view {
+    font-size: 30px;
+  }
+}
+
+
 
 .zayavka_head {
   display: flex;
