@@ -370,27 +370,46 @@
             alt="arrow right top"
           >
         </div>
-        <form class="zayavka_form">
+        <form
+          action="send_mail.php"
+          name="form"
+          method="POST"
+          class="zayavka_form"
+        >
           <input
-            name="name"
+            type="text"
             placeholder="Ваше имя"
+            name="name"
+            id="name"
+            data-reg="^[А-ЯЁ][а-яё]*$"
             class="zayavka_form-input zayavka_form-input-name"
             required
           />
           <input
+            type="text"
             name="phone"
+            id="phone"
+            data-reg="^((\+7|7|8)+([0-9]){10})$"
             placeholder="Ваш телефон"
             class="zayavka_form-input zayavka_form-input-phone"
             required
           />
+
           <input
+            type="text"
+            id="time"
             name="time"
             placeholder="Удобная дата и время для звонка"
             class="zayavka_form-input zayavka_form-input-time"
           />
-          <button class="zayavka_form-btn button">
-            ПОДАТЬ ЗАЯВКУ
-          </button>
+          <div class="zayavka_form-btn-box button">
+            <input
+              type="submit"
+              id="button"
+              value="ОТПРАВИТЬ"
+              class="zayavka_form-btn"
+            />
+          </div>
         </form>
       </div>
     </main>

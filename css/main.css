@@ -243,9 +243,16 @@
 .zayavka_form-input-time {
   grid-area: time;
 }
-.zayavka_form-btn {
+.zayavka_form-btn-box {
   grid-area: btn;
   margin-top: auto;
   height: 88px;
+  color: #fff;
+  display: flex;
+}
+.zayavka_form-btn {
+  background: #FFD43A;
+  color: #fff;
+  margin: auto;
 }
 
