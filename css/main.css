@@ -38,6 +38,15 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .o-nas {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .o-nas_block {
   display: flex;
   flex-direction: column;
@@ -54,7 +63,6 @@
     font-size: 40px;
   }
 }
-
 .o-nas_block_subtitle {
   font-family: 'InnerRegular', serif;
   font-weight: 400;
@@ -76,6 +84,12 @@
     padding-top: 80px;
   }
 }
+@media screen and (max-width: 768px) {
+  .o-nas_info {
+    flex-direction: column;
+  }
+}
+
 
 .o-nas_info_video {
   min-width: 60%;
@@ -131,6 +145,11 @@
     padding-bottom: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .catalog_head {
+    font-size: 28px;
+  }
+}
 
 .catalog_list {
   display: flex;
@@ -143,6 +162,13 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 555px) {
+  .catalog_list {
+    flex-direction: column;
+    align-content: center;
+
+  }
+}
 
 .catalog_list-item {
   position: relative;
@@ -151,6 +177,11 @@
 @media screen and (max-width: 1000px) {
   .catalog_list-item {
     width: calc(50% - 40px);
+  }
+}
+@media screen and (max-width: 555px) {
+  .catalog_list-item {
+    width: 100%;
   }
 }
 
@@ -194,13 +225,18 @@
 @media screen and (max-width: 1000px) {
   .zayavka {
     margin-top: 80px;
-    padding: 40px 60px;
+    padding: 20px;
   }
 }
 
 .zayavka_head {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .zayavka_head {
+    padding-bottom: 28px;
+  }
 }
 .zayavka_head_title {
   font-weight: 700;
@@ -212,7 +248,15 @@
     font-size: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .zayavka_head_title {
+    font-size: 28px;
+  }
+}
 
+.zayavka_head_img {
+  max-width: 10%;
+}
 
 .zayavka_form {
   display: grid;
@@ -223,6 +267,17 @@
     'time btn';
   grid-template-columns: 65% 31%;
 }
+@media screen and (max-width: 768px) {
+  .zayavka_form {
+    gap: 28px;
+    grid-template-areas: 'name'
+    'phone'
+    'time'
+    'btn';
+    grid-template-columns: 100%;
+  }
+}
+
 .zayavka_form-input {
   border-bottom: 2px solid #B0B0B0;
   font-family: InnerRegular, serif;
@@ -243,16 +298,20 @@
 .zayavka_form-input-time {
   grid-area: time;
 }
-.zayavka_form-btn-box {
+
+.zayavka_form-btn {
   grid-area: btn;
   margin-top: auto;
   height: 88px;
   color: #fff;
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.zayavka_form-btn {
-  background: #FFD43A;
-  color: #fff;
-  margin: auto;
+
+@media screen and (max-width: 768px) {
+  .zayavka_form-btn {
+    height: 60px;
+  }
 }
 

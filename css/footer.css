@@ -26,7 +26,6 @@ footer {
   }
 }
 
-
 .footer_left-title {
   font-weight: 700;
   font-size: 50px;
@@ -58,9 +57,21 @@ footer {
   display: flex;
   gap: 40px;
 }
+@media screen and (max-width: 768px) {
+  .footer_right-block {
+    flex-direction: column;
+  }
+}
+
 .footer_right-block-map {
   width: 500px;
 }
+@media screen and (max-width: 768px) {
+  .footer_right-block-map {
+    width: 100%;
+  }
+}
+
 .footer_right-block-text {
   font-family: InnerRegular, serif;
   font-weight: 700;
@@ -69,6 +80,12 @@ footer {
   margin-bottom: 24px;
   white-space: nowrap;
 }
+@media screen and (max-width: 768px) {
+  .footer_right-block-text {
+    white-space: normal;
+  }
+}
+
 
 .footer_right-block-days {
   display: flex;

@@ -8,6 +8,11 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .slider__item {
+    height: 250px;
+  }
+}
 .slider__item-img {
   width: 100%;
   height: inherit;
@@ -31,6 +36,13 @@
 @media screen and (max-width: 1000px) {
   .slider__item-text {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider__item-text {
+    font-size: 20px;
+    max-width: 80%;
   }
 }
 

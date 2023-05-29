@@ -11,4 +11,3 @@ nav.addEventListener('click', function(){
   menuBtn.classList.remove('active');
   menu.classList.remove('active');
 })
-
