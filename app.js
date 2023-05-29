@@ -76,7 +76,7 @@ function formReset() {
   formSuccess.classList.add('zayavka_success_view');
   setTimeout(() => {
     formSuccess.classList.remove('zayavka_success_view');
-  }, 5000);
+  }, 7000);
   form.reset();
   validFormArr.forEach((el) => {
     el.setAttribute("is-valid", 0);
