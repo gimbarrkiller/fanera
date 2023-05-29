@@ -9,7 +9,12 @@ html {
 .section, main, header {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px 20px 0;
+  padding: 20px 80px 0;
+}
+@media screen and (max-width: 1000px) {
+    .section, main, header {
+        padding: 20px 20px 0;
+    }
 }
 
 header {
@@ -25,6 +30,7 @@ header {
     padding-bottom: 30px;
   }
 }
+
 .header_logos {
   display: flex;
   gap: 10px;
@@ -32,18 +38,24 @@ header {
 .header_logos_logo {
   height: 63px;
 }
+@media screen and (max-width: 555px) {
+  .header_logos_logo {
+    height: 40px;
+  }
+}
+
 
 .header_nav {
   display: flex;
   justify-content: space-around;
-  gap: 50px;
+  gap: 30px;
 }
 @media screen and (max-width: 1400px) {
   .header_nav {
-    gap: 30px;
     flex-wrap: wrap;
   }
-}@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 1000px) {
   .header_nav {
     display: none;
   }
