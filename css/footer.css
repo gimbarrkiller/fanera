@@ -35,7 +35,8 @@ footer {
   position: absolute;
   right: 20px;
   top: -60px;
-  background: #3e3e3e75;
+  background: #FFD43A;
+  color: #ffffff;
   padding: 10px;
 }
 .footer_go_top:hover {
