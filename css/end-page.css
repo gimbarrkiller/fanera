@@ -31,6 +31,13 @@ b {
   line-height: 120%;
 }
 
+.product_text-big {
+  font-family: InnerRegular, serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+}
+
 .product_blocks {
   display: flex;
   gap: 35px;
@@ -101,4 +108,8 @@ b {
   font-weight: 700;
   font-size: 23px;
   line-height: 120%;
+}
+
+.product_blocks_img {
+  width: fit-content;
 }
