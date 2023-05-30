@@ -28,25 +28,32 @@ footer {
 }
 
 .footer_go_top {
-  font-family: InnerRegular, serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 120%;
   position: absolute;
   right: 20px;
-  top: -60px;
+  top: -120px;
   background: #FFD43A;
   color: #ffffff;
   padding: 10px;
 }
+@media screen and (max-width: 1000px) {
+  .footer_go_top {
+    top: -80px;
+  }
+}
+
 .footer_go_top:hover {
   transform: scale(1.2);
   transition: all 0.3s ease-out;
 }
 .footer_go_top-img {
-  height: 20px;
-  transform: rotate(90deg);
+  height: 90px;
 }
+@media screen and (max-width: 1000px) {
+  .footer_go_top-img {
+    height: 60px;
+  }
+}
+
 
 .footer_left-title {
   font-weight: 700;

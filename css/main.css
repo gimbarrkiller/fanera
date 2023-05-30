@@ -98,12 +98,6 @@
 
 .o-nas_info_video {
   min-width: 60%;
-  min-height: 400px;
-}
-@media screen and (max-width: 768px) {
-  .o-nas_info_video {
-    min-height: 250px;
-  }
 }
 
 .o-nas_info_block {
@@ -212,13 +206,40 @@
   justify-content: space-between;
   width: 100%;
   padding: 24px;
+  gap: 20px;
 }
+@media screen and (max-width: 1150px) {
+  .catalog_list-item:hover .catalog_list-item_hover {
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
 .catalog_list-item_hover_text {
   font-weight: 700;
   font-size: 20px;
   line-height: 120%;
   color: #ffffff;
 }
+@media screen and (max-width: 1150px) {
+  .catalog_list-item_hover_text {
+    font-size: 18px;
+  }
+}
+
+.catalog_list-item_hover_img {
+  width: 40px;
+  height: 40px;
+  filter: invert(1);
+}
+@media screen and (max-width: 1150px) {
+  .catalog_list-item_hover_img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 .catalog_list-item_text {
   background: #FFD43A;
   font-weight: 700;
@@ -226,6 +247,11 @@
   line-height: 120%;
   padding: 24px;
   text-align: center;
+}
+@media screen and (max-width: 1150px) {
+  .catalog_list-item_text {
+    font-size: 20px;
+  }
 }
 
 .zayavka {
@@ -298,7 +324,15 @@
 }
 
 .zayavka_head_img {
-  max-width: 10%;
+  max-width: 80px;
+  max-height: 80px;
+  transform: rotate(90deg);
+}
+@media screen and (max-width: 1000px) {
+  .zayavka_head_img {
+    max-width: 50px;
+    max-height: 50px;
+  }
 }
 
 .zayavka_form {

@@ -1,3 +1,5 @@
+
+
 b {
   font-family: InnerRegular, serif;
   font-weight: 700;
@@ -24,6 +26,53 @@ b {
   }
 }
 
+.product {
+  padding: 0;
+  margin: 20px auto 0;
+}
+@media screen and (max-width: 1600px) {
+  .product {
+    margin: 20px 80px 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .product {
+    margin: 20px 20px 0;
+  }
+}
+
+.product_container {
+  display: flex;
+  padding: 0;
+  background: #F1F1F1;
+  position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .product_container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.product_content {
+  padding: 45px 45px 200px;
+}
+@media screen and (max-width: 1000px) {
+  .product_content {
+    padding: 20px 20px 200px;
+  }
+}
+
+.catalog_list-item {
+  min-width: 312px;
+  max-width: 312px;
+  height: fit-content;
+}
+.catalog_list-item:hover .catalog_list-item_hover {
+  top: 20px;
+  padding: 20px;
+  align-items: normal;
+}
+
 .product_text {
   font-family: InnerRegular, serif;
   font-weight: 400;
@@ -37,15 +86,10 @@ b {
   font-size: 23px;
   line-height: 120%;
 }
-
 .product_blocks {
   display: flex;
+  flex-direction: column;
   gap: 35px;
-}
-@media screen and (max-width: 1000px) {
-  .product_blocks {
-    flex-direction: column;
-  }
 }
 
 .product_block_text_img {
@@ -68,17 +112,10 @@ b {
 
 .product_block_border_blocks {
   display: flex;
-  flex-direction: column;
   gap: 20px;
+  justify-content: center;
 }
-@media screen and (max-width: 1000px) {
-  .product_block_border_blocks {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1200px) {
   .product_block_border_blocks {
     flex-direction: column;
   }
@@ -112,4 +149,22 @@ b {
 
 .product_blocks_img {
   width: fit-content;
+}
+
+.product_buy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  background: #FFD43A;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.product_buy-img {
+  width: 50px;
+  height: 50px;
 }

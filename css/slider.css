@@ -48,8 +48,9 @@
 }
 
 .slider__control_prev::before {
-  background-image:url('../img/arrow-left.svg');
-  transition: 1s;
+  background-image:url('../img/arrow-left.png');
+  filter: invert(1);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,7 +60,9 @@
 }
 
 .slider__control_next::before {
-  background-image:url('../img/arrow-right.svg');
+  background-image:url('../img/arrow-right.png');
+  filter: invert(1);
+  transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
   .slider__control_next::before {
