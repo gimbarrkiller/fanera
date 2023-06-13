@@ -97,6 +97,12 @@ b {
   gap: 20px;
   align-items: center;
 }
+@media screen and (max-width: 1000px) {
+  .product_block_text_img {
+    flex-direction: column;
+  }
+}
+
 .product_block_border {
   padding: 30px;
   border: 1px solid #000000;
@@ -140,6 +146,12 @@ b {
   gap: 10px;
   margin-bottom: 28px;
 }
+@media screen and (max-width: 1000px) {
+  .product_blocks_imgs {
+    flex-direction: column;
+  }
+}
+
 .product_blocks_text {
   font-family: HeliosExt, serif;
   font-weight: 700;

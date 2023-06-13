@@ -301,6 +301,7 @@
 .zayavka_head {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 70px;
 }
 @media screen and (max-width: 768px) {
   .zayavka_head {

@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed365ae2-3150-45d4-b805-51d30ef5ce42" name="Default Changelist" comment="">
+    <list default="true" id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/end-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/end-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dvp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dvp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fanera.html" beforeDir="false" afterPath="$PROJECT_DIR$/fanera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-right-bottom.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-right.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/mdf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/osp.html" beforeDir="false" afterPath="$PROJECT_DIR$/osp.html" afterDir="false" />
@@ -65,7 +62,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed365ae2-3150-45d4-b805-51d30ef5ce42" name="Default Changelist" comment="" />
+      <changelist id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="" />
       <created>1685174800160</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -82,6 +79,9 @@
       <workItem from="1685392411073" duration="3354000" />
       <workItem from="1685423805188" duration="1320000" />
       <workItem from="1685430132951" duration="6732000" />
+      <workItem from="1685510007854" duration="638000" />
+      <workItem from="1685596500790" duration="1934000" />
+      <workItem from="1686633176246" duration="2573000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1685224839997</created>

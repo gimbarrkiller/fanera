@@ -70,6 +70,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: HeliosExt, serif;
 }
 
 :focus {
@@ -319,4 +320,7 @@ textarea {
     width: fit-content;
     padding: 12px 18px;
   }
+}
+a {
+    font-family: HeliosExt, serif;
 }
