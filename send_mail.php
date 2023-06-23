@@ -16,7 +16,7 @@
 	$body = str_replace('%phone%', $phone, $body);
 	$body = str_replace('%time%', $time, $body);
 
-  $mail->addAddress("kamil@citynix.ru");   // Здесь введите Email, куда отправлять
+  $mail->addAddress("fd.nsk@yandex.ru");   // Здесь введите Email, куда отправлять
   $mail->Subject = "[Заявка с формы]";
   $mail->MsgHTML($body);
   if (!$mail->send()) {

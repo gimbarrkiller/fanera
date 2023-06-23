@@ -120,6 +120,12 @@
 .o-nas_info_block_subtitle_img {
   width: 50px;
 }
+@media screen and (max-width: 768px) {
+  .o-nas_info_block_subtitle_img {
+    display: none;
+  }
+}
+
 .o-nas_info_block_subtitle_second {
   font-family: 'InnerRegular', serif;
   font-weight: 400;
