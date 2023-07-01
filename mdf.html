@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html" class="header_logos">
+      <a href="/" class="header_logos">
         <img
           class="header_logos_logo"
           src="./img/logo.svg"
@@ -30,13 +30,13 @@
       <nav class="header_nav">
         <a
           class="header_nav_link link_decoration"
-          href="index.html#o-nas"
+          href="/#o-nas"
         >
           о нас
         </a>
         <a
           class="header_nav_link link_decoration"
-          href="index.html#catalog"
+          href="/#catalog"
         >
           каталог
         </a>
@@ -78,13 +78,13 @@
         <nav class="header_nav_mobile">
           <a
             class="header_nav_link link_decoration"
-            href="index.html#o-nas"
+            href="/#o-nas"
           >
             о нас
           </a>
           <a
             class="header_nav_link link_decoration"
-            href="index.html#catalog"
+            href="/#catalog"
           >
             каталог
           </a>
@@ -118,129 +118,142 @@
         </div>
       </div>
     </header>
-    <main class="main product">
-
-      <div class="product_container">
-        <a
-          href="index.html"
-          class="catalog_list-item"
-        >
-          <img
-            class="catalog_list-item_img"
-            src="./img/catalog/mdf.png"
-            alt="МДФ"
-          />
-          <div class="catalog_list-item_hover">
+    <main class="product">
+      <div class="main">
+        <div class="product_container">
+          <a
+            href="/"
+            class="catalog_list-item"
+          >
             <img
-              class="catalog_list-item_hover_img"
-              src="./img/arrow-left-top.png"
-              alt="arrow left top"
-            >
-            <p class="catalog_list-item_hover_text">
-              ВЕРНУТЬСЯ НА ГЛАВНУЮ
+              class="catalog_list-item_img"
+              src="./img/catalog/mdf.png"
+              alt="МДФ"
+            />
+            <div class="catalog_list-item_hover">
+              <img
+                class="catalog_list-item_hover_img"
+                src="./img/arrow-left-top.png"
+                alt="arrow left top"
+              >
+              <p class="catalog_list-item_hover_text">
+                ВЕРНУТЬСЯ НА ГЛАВНУЮ
+              </p>
+            </div>
+            <div class="catalog_list-item_text">
+              МДФ
+            </div>
+          </a>
+          <div class="product_content">
+            <p class="product_text-big">
+              <b>МДФ (древесно-волокнистая плита средней плотности)</b> – это плитный материал, который получают путем
+              сухого прессования мелкодисперсной древесной стружки при высоком давлении и температуре.
+              <br />
+              <br />
+              Стружка связывается при помощи карбамидных смол, модифицированных меламином,
+              которые обеспечивают однородную плотную структуру. Поэтому плита имеет больше возможностей для
+              механической обработки даже по сравнению с натуральным деревом.
+              <br />
+              <br />
+              <b>Преимущества:</b> влагостойкость, биостойкость, огнеупорность.
+              <br />
+              <br />
+              <b>Применение:</b> МДФ – идеальный материал для изготовления фасадов мебели и стеновых панелей.
+              Благодаря влагостойкости подходит для кухонной мебели.
+              Плиту можно ламинировать, лакировать или оклеивать искусственным и натуральным шпоном.
             </p>
           </div>
-          <div class="catalog_list-item_text">
-            МДФ
+          <a
+            href="#zayavka"
+            class="product_buy"
+          >
+            ПОДАТЬ
+            <br />
+            ЗАЯВКУ
+            <img
+              class="product_buy-img"
+              src="./img/arrow-right-bottom.png"
+              alt="arrow right bottom"
+            >
+          </a>
+        </div>
+
+        <div
+          class="zayavka"
+          id="zayavka"
+        >
+          <div class="zayavka_head">
+            <h2 class="zayavka_head_title">
+              ПОДАТЬ ЗАЯВКУ
+            </h2>
+            <img
+              src="./img/arrow-left-top.png"
+              alt="arrow right top"
+              class="zayavka_head_img"
+            >
           </div>
-        </a>
-        <div class="product_content">
-          <p class="product_text-big">
-            <b>МДФ (древесно-волокнистая плита средней плотности)</b> – это плитный материал, который получают путем
-            сухого прессования мелкодисперсной древесной стружки при высоком давлении и температуре.
-            <br />
-            <br />
-            Стружка связывается при помощи карбамидных смол, модифицированных меламином,
-            которые обеспечивают однородную плотную структуру. Поэтому плита имеет больше возможностей для
-            механической обработки даже по сравнению с натуральным деревом.
-            <br />
-            <br />
-            <b>Преимущества:</b> влагостойкость, биостойкость, огнеупорность.
-            <br />
-            <br />
-            <b>Применение:</b> МДФ – идеальный материал для изготовления фасадов мебели и стеновых панелей.
-            Благодаря влагостойкости подходит для кухонной мебели.
-            Плиту можно ламинировать, лакировать или оклеивать искусственным и натуральным шпоном.
-          </p>
-        </div>
-        <a
-          href="#zayavka"
-          class="product_buy"
-        >
-          ПОДАТЬ
-          <br />
-          ЗАЯВКУ
-          <img
-            class="product_buy-img"
-            src="./img/arrow-right-bottom.png"
-            alt="arrow right bottom"
+          <form
+            action="send_mail.php"
+            name="form"
+            method="POST"
+            class="zayavka_form"
           >
-        </a>
+            <input
+              type="text"
+              placeholder="Имя"
+              name="name"
+              id="name"
+              class="zayavka_form-input zayavka_form-input-name"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              data-reg="^((\+7|7|8)+([0-9]){10})$"
+              placeholder="Телефон"
+              class="zayavka_form-input zayavka_form-input-phone"
+              required
+            />
+
+            <input
+              type="text"
+              id="time"
+              name="time"
+              placeholder="Время для звонка"
+              class="zayavka_form-input zayavka_form-input-time"
+              required
+            />
+            <input
+              type="submit"
+              id="button"
+              value="ОТПРАВИТЬ"
+              class="zayavka_form-btn zayavka_form-btn-box button"
+            />
+          </form>
+        </div>
       </div>
-
-      <div
-        class="zayavka"
-        id="zayavka"
-      >
-        <div class="zayavka_head">
-          <h2 class="zayavka_head_title">
-            ПОДАТЬ ЗАЯВКУ
-          </h2>
-          <img
-            src="./img/arrow-left-top.png"
-            alt="arrow right top"
-            class="zayavka_head_img"
-          >
-        </div>
-        <form
-          action="send_mail.php"
-          name="form"
-          method="POST"
-          class="zayavka_form"
+      <div class="main_right">
+        <a
+          class="go_top"
+          href="#"
         >
-          <input
-            type="text"
-            placeholder="Имя"
-            name="name"
-            id="name"
-            class="zayavka_form-input zayavka_form-input-name"
-            required
-          />
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            data-reg="^((\+7|7|8)+([0-9]){10})$"
-            placeholder="Телефон"
-            class="zayavka_form-input zayavka_form-input-phone"
-            required
-          />
-
-          <input
-            type="text"
-            id="time"
-            name="time"
-            placeholder="Когда будет удобно принять звонок?"
-            class="zayavka_form-input zayavka_form-input-time"
-            required
-          />
-          <input
-            type="submit"
-            id="button"
-            value="ОТПРАВИТЬ"
-            class="zayavka_form-btn zayavka_form-btn-box button"
-          />
-        </form>
+          <img
+            class="go_top-img"
+            src="./img/go-to-up.svg"
+            alt="top"
+          >
+        </a>
       </div>
     </main>
     <footer id="contacts">
       <div class="footer">
         <a
-          class="footer_go_top"
+          class="go_top"
           href="#"
         >
           <img
-            class="footer_go_top-img"
+            class="go_top-img"
             src="./img/go-to-up.svg"
             alt="top"
           >
@@ -395,6 +408,7 @@
     </footer>
 
     <script src="./js/burger-menu.js"></script>
+    <script src="./js/scroll-to-top.js"></script>
     <script defer src="app.js"></script>
   </body>
 </html>

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/scroll-to-top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dvp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanera.html" beforeDir="false" afterPath="$PROJECT_DIR$/fanera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/mdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp.html" beforeDir="false" afterPath="$PROJECT_DIR$/osp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,10 +51,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\faner\js" />
       <recent name="C:\Users\Admin\Desktop\faner" />
       <recent name="C:\Users\Admin\Desktop\faner\css" />
       <recent name="C:\Users\Admin\Desktop\faner\pages" />
-      <recent name="C:\Users\Admin\Desktop\faner\js" />
       <recent name="C:\Users\Admin\Desktop\faner\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,7 +83,13 @@
       <workItem from="1685430132951" duration="6732000" />
       <workItem from="1685510007854" duration="638000" />
       <workItem from="1685596500790" duration="1934000" />
-      <workItem from="1686633176246" duration="3753000" />
+      <workItem from="1686633176246" duration="4553000" />
+      <workItem from="1687410428369" duration="1503000" />
+      <workItem from="1687424329567" duration="79000" />
+      <workItem from="1687429108479" duration="618000" />
+      <workItem from="1687497802899" duration="3693000" />
+      <workItem from="1687501861998" duration="377000" />
+      <workItem from="1688193625535" duration="4503000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1685224839997</created>
@@ -167,7 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686636550833</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix style">
+      <created>1686638788142</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686638788142</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix dvp">
+      <created>1687498990482</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687498990482</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix text">
+      <created>1687501203048</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687501203048</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +233,8 @@
     <MESSAGE value="add success form" />
     <MESSAGE value="fix send" />
     <MESSAGE value="fix style" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix style" />
+    <MESSAGE value="fix dvp" />
+    <MESSAGE value="fix text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix text" />
   </component>
 </project>
