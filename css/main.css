@@ -46,7 +46,7 @@ main {
 
 .o-nas {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 300px;
 }
 @media screen and (max-width: 1000px) {
@@ -74,6 +74,7 @@ main {
   font-weight: 700;
   font-size: 50px;
   line-height: 120%;
+  align-self: center;
 }
 @media screen and (max-width: 1000px) {
   .o-nas_block_title {
@@ -84,6 +85,7 @@ main {
   font-family: 'InnerRegular', serif;
   font-weight: 400;
   font-size: 30px;
+  text-align: center;
 }
 @media screen and (max-width: 1000px) {
   .o-nas_block_subtitle {
@@ -94,7 +96,7 @@ main {
 .o-nas_info {
   display: flex;
   gap: 30px;
-  padding-top: 200px;
+  padding-top: 120px;
 }
 @media screen and (max-width: 1000px) {
   .o-nas_info {
@@ -146,6 +148,31 @@ main {
   gap: 30px;
 }
 
+.certificate {
+  padding-top: 80px;
+}
+
+.certificate_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .certificate_list {
+    flex-direction: column;
+  }
+}
+
+.certificate_list_img {
+  width: 32%;
+}
+@media screen and (max-width: 768px) {
+  .certificate_list_img {
+    width: 100%;
+  }
+}
+
+
 .catalog {
   padding-top: 320px;
 }
@@ -188,7 +215,6 @@ main {
   .catalog_list {
     flex-direction: column;
     align-content: center;
-
   }
 }
 

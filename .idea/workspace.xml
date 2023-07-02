@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dvp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanera.html" beforeDir="false" afterPath="$PROJECT_DIR$/fanera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/catalog/dvp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/dvp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/catalog/fanera.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/fanera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/catalog/mdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/mdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/catalog/osp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/osp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/mdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp.html" beforeDir="false" afterPath="$PROJECT_DIR$/osp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,7 +90,8 @@
       <workItem from="1687429108479" duration="618000" />
       <workItem from="1687497802899" duration="3693000" />
       <workItem from="1687501861998" duration="377000" />
-      <workItem from="1688193625535" duration="6360000" />
+      <workItem from="1688193625535" duration="7518000" />
+      <workItem from="1688320532379" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1685224839997</created>
@@ -202,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688198237982</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix header">
+      <created>1688200614294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688200614294</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +252,7 @@
     <MESSAGE value="fix dvp" />
     <MESSAGE value="fix text" />
     <MESSAGE value="fix content add go to top" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix content add go to top" />
+    <MESSAGE value="fix header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix header" />
   </component>
 </project>
