@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dvp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dvp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fanera.html" beforeDir="false" afterPath="$PROJECT_DIR$/fanera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/catalog/dvp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/dvp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/catalog/fanera.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/fanera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/catalog/mdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/mdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/catalog/osp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/catalog/osp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/mdf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osp.html" beforeDir="false" afterPath="$PROJECT_DIR$/osp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,13 @@
       <workItem from="1687497802899" duration="3693000" />
       <workItem from="1687501861998" duration="377000" />
       <workItem from="1688193625535" duration="7518000" />
-      <workItem from="1688320532379" duration="1661000" />
+      <workItem from="1688320532379" duration="2347000" />
+      <workItem from="1688365114291" duration="19000" />
+      <workItem from="1688376822683" duration="566000" />
+      <workItem from="1688714075985" duration="9000" />
+      <workItem from="1689225214980" duration="671000" />
+      <workItem from="1689228251675" duration="718000" />
+      <workItem from="1689758679834" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1685224839997</created>
@@ -219,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688200614294</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add sertificat">
+      <created>1688323703798</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688323703798</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +257,7 @@
     <MESSAGE value="fix text" />
     <MESSAGE value="fix content add go to top" />
     <MESSAGE value="fix header" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix header" />
+    <MESSAGE value="add sertificat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sertificat" />
   </component>
 </project>

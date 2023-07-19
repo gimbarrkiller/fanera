@@ -169,7 +169,6 @@ header {
   transform: translate(-50%, 0%) rotate(-45deg);
 }
 
-/* Меню, которое будет появляться */
 .menu {
   position: fixed;
   top: 0;
@@ -186,6 +185,12 @@ header {
 .menu.active {
   transform: translateX(0);
 }
+@media screen and (min-width: 1000px) {
+  .menu {
+    display: none;
+  }
+}
+
 
 .menu li {
   list-style-type: none;

@@ -63,7 +63,7 @@ function serializeForm(formNode) {
 }
 
 async function sendData(data) {
-  return await fetch("send_mail.php", {
+  return await fetch("bitrixform.php", {
     method: "POST",
     body: data,
   });
