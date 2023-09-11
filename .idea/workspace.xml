@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="017436cb-46fb-4d18-86b3-d1de83cb77f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/end-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/end-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dvp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fanera.html" beforeDir="false" afterPath="$PROJECT_DIR$/fanera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scroll-to-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scroll-to-top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/mdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp.html" beforeDir="false" afterPath="$PROJECT_DIR$/osp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,17 @@
       <workItem from="1689827314488" duration="3556000" />
       <workItem from="1689917339286" duration="623000" />
       <workItem from="1690439066577" duration="786000" />
-      <workItem from="1690529578902" duration="1766000" />
+      <workItem from="1690529578902" duration="2566000" />
+      <workItem from="1690532218328" duration="13000" />
+      <workItem from="1690792824176" duration="21000" />
+      <workItem from="1690893769176" duration="1584000" />
+      <workItem from="1691995857237" duration="898000" />
+      <workItem from="1691997538129" duration="681000" />
+      <workItem from="1691998309623" duration="23000" />
+      <workItem from="1691999893366" duration="77000" />
+      <workItem from="1692604176373" duration="746000" />
+      <workItem from="1693308142281" duration="557000" />
+      <workItem from="1693315944735" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1685224839997</created>
@@ -243,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689917353444</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix page Fanera">
+      <created>1690532157781</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690532157781</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +299,7 @@
     <MESSAGE value="fix header" />
     <MESSAGE value="add sertificat" />
     <MESSAGE value="add php" />
-    <option name="LAST_COMMIT_MESSAGE" value="add php" />
+    <MESSAGE value="fix page Fanera" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix page Fanera" />
   </component>
 </project>
