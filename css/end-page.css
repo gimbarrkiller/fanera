@@ -46,6 +46,8 @@ b {
   padding: 0;
   background: #F1F1F1;
   position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
   .product_container {
@@ -204,7 +206,7 @@ b {
   font-weight: 700;
   font-size: 30px;
   line-height: 120%;
-  background: #FFD43A;
+  background: #25d366;
   display: flex;
   gap: 20px;
   align-items: center;

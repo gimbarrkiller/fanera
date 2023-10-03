@@ -1,9 +1,12 @@
+.slider {
+  margin: -146px 0 40px;
+}
 .slider__items {
   counter-reset: slide;
 }
 
 .slider__item {
-  height: 320px;
+  height: 700px;
   counter-increment: slide;
   position: relative;
   cursor: pointer;
@@ -11,28 +14,43 @@
 
 @media screen and (max-width: 768px) {
   .slider__item {
-    height: 250px;
+    height: 400px;
   }
 }
 .slider__item-img {
   width: 100%;
   height: inherit;
   filter: brightness(80%);
+  object-fit: cover;
 }
-.slider__item-text {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 120%;
-  max-width: 850px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  height: 100%;
-  display: flex;
-  align-items: center;
+
+.slider__item_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
   padding: 30px;
   position: absolute;
   top: 0;
-  left: 50px;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+@media screen and (max-width: 1500px) {
+  .slider__item_container {
+    padding: 60px;
+  }
+}
+
+.slider__item-text {
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+max-width: 850px;
+text-transform: uppercase;
+color: #FFFFFF;
+height: 100%;
+display: flex;
+align-items: center;
 }
 @media screen and (max-width: 1000px) {
   .slider__item-text {
@@ -41,31 +59,31 @@
 }
 
 @media screen and (max-width: 768px) {
-  .slider__item-text {
-    font-size: 20px;
-    max-width: 80%;
-  }
+.slider__item-text {
+font-size: 20px;
+max-width: 80%;
+}
 }
 
 .slider__control_prev::before {
-  background-image:url('../img/arrow-left.png');
-  filter: invert(1);
-  transition: 0.5s;
+background-image:url('../img/arrow-left.png');
+filter: invert(1);
+transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
-  .slider__control_prev::before {
-    display: none;
-  }
+.slider__control_prev::before {
+display: none;
+}
 }
 
 .slider__control_next::before {
-  background-image:url('../img/arrow-right.png');
-  filter: invert(1);
-  transition: 0.5s;
+background-image:url('../img/arrow-right.png');
+filter: invert(1);
+transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
-  .slider__control_next::before {
-    display: none;
-  }
+.slider__control_next::before {
+display: none;
+}
 }

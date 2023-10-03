@@ -7,7 +7,6 @@ html {
 }
 
 .section, main, header {
-  max-width: 1440px;
   margin: 0 auto;
   padding: 20px 0 0;
 }
@@ -23,11 +22,15 @@ html {
 }
 
 header {
-  padding-top: 98px;
-  padding-bottom: 98px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  max-width: 1480px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (max-width: 1000px) {
   .header {

@@ -14,12 +14,15 @@ main {
   gap: 20px;
   justify-content: space-between;
   padding-bottom: 88px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
   .main_head {
     flex-direction: column;
     gap: 40px;
     padding-bottom: 40px;
+    align-items: center;
   }
 }
 
@@ -48,6 +51,8 @@ main {
   display: flex;
   justify-content: space-around;
   padding-top: 300px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
   .o-nas {
@@ -97,6 +102,8 @@ main {
   display: flex;
   gap: 30px;
   padding-top: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
   .o-nas_info {
@@ -150,6 +157,8 @@ main {
 
 .certificate {
   padding-top: 80px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .certificate_list {
@@ -175,6 +184,8 @@ main {
 
 .catalog {
   padding-top: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
   .catalog {
@@ -284,7 +295,7 @@ main {
 }
 
 .catalog_list-item_text {
-  background: #FFD43A;
+  background: #25d366;
   font-weight: 700;
   font-size: 30px;
   line-height: 120%;
@@ -298,10 +309,11 @@ main {
 }
 
 .zayavka {
-  margin-top: 200px;
   padding: 60px 80px;
   border: 15px solid #3E3E3E;
   position: relative;
+  max-width: 1440px;
+  margin: 200px auto 0;
 }
 @media screen and (max-width: 1000px) {
   .zayavka {
@@ -319,7 +331,7 @@ main {
   height: 100%;
   top: 0;
   left: 0;
-  background: #ffd43a;
+  background: #25d366;
   text-align: center;
   display: flex;
   align-items: center;
@@ -439,9 +451,9 @@ main {
 
 .go_top {
   position: sticky;
-  margin-left: -60px;
+  margin-left: -120px;
   bottom: 50px;
-  background: #FFD43A;
+  background: #25d366;
   padding: 10px;
   height: fit-content;
   align-self: flex-end;
@@ -449,7 +461,7 @@ main {
 }
 @media screen and (max-width: 1000px) {
   .go_top {
-    top: -80px;
+    margin-left: -70px;
   }
 }
 
